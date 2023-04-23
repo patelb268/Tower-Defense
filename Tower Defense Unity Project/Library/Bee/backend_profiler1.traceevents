@@ -1,0 +1,556 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1669844710406415, "dur":1353, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710407778, "dur":132, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1669844710407948, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1669844710407967, "dur":778, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1669844710408801, "dur":918, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710409719, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710775504, "dur":216, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710775720, "dur":55, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710775775, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710775781, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710775790, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710775792, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710775800, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710775802, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710775807, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710775809, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710775815, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710775817, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710775822, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710775823, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710775829, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710775831, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710775836, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710775850, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710775883, "dur":1641, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1669844710409087, "dur":647, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710409737, "dur":2786, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710412548, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669844710412551, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710412620, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669844710412625, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710418986, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669844710419968, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1669844710420023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710420659, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1669844710421674, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1669844710421706, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710421766, "dur":831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1669844710422630, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710422716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710422874, "dur":28849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710451769, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710451835, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710451845, "dur":6069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710457948, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710457984, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710457990, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710459520, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710459574, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710459587, "dur":6243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710465911, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710465942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710465950, "dur":17467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710483444, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710483473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710483480, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710485338, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710485366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710485372, "dur":1857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710487260, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710487295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710487301, "dur":9003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710496341, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710496377, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710496384, "dur":18266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710514694, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710514737, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710514754, "dur":34462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710549246, "dur":720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710549970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710549980, "dur":4172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710554183, "dur":61336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710615526, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710615537, "dur":6515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710622090, "dur":1413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710623508, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710623520, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710624384, "dur":53190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710677580, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710677593, "dur":3889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669844710681512, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1669844710681547, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710681554, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1669844710682541, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1669844710682573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710682579, "dur":3045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1669844710685655, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level5.resS" }}
+,{ "pid":12345, "tid":1, "ts":1669844710685688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710685694, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level5.resS" }}
+,{ "pid":12345, "tid":1, "ts":1669844710686696, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level3.resS" }}
+,{ "pid":12345, "tid":1, "ts":1669844710686723, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710686728, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level3.resS" }}
+,{ "pid":12345, "tid":1, "ts":1669844710687993, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1669844710688022, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710688027, "dur":2177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1669844710690234, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1669844710690360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669844710690366, "dur":3261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1669844710693652, "dur":81896, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669844710409221, "dur":682, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669844710409904, "dur":2626, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669844710412558, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1669844710412659, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669844710425677, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1669844710427043, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710427085, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669844710427127, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710428786, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710428851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669844710428861, "dur":27358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710456253, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710456293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669844710456301, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710458454, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710458486, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669844710458492, "dur":2072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710460590, "dur":177461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710638056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669844710638066, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710639075, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710639112, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669844710639118, "dur":8076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710647223, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710647258, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669844710647266, "dur":768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710648068, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710648102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669844710648109, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710649001, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710649033, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669844710649041, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710650670, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710650702, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669844710650713, "dur":8371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710659129, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710659165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669844710659180, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710660504, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710660541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669844710660548, "dur":1784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710662377, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710662460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669844710662476, "dur":1766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710664272, "dur":110188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710774464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669844710774488, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669844710775465, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1669844710775467, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669844710409144, "dur":674, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669844710409819, "dur":2817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669844710412637, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1669844710412708, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669844710433602, "dur":2270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1669844710435906, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669844710435944, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669844710435953, "dur":21349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669844710457343, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669844710457383, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669844710457391, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669844710459254, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669844710459286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669844710459292, "dur":2374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669844710462834, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669844710462893, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669844710462898, "dur":13669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669844710476597, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669844710476627, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669844710476633, "dur":3519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669844710480186, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669844710480221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669844710480229, "dur":18909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669844710499168, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669844710499201, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669844710499208, "dur":97857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669844710597102, "dur":82656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669844710679762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669844710679770, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669844710681541, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669844710681605, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669844710681611, "dur":5513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669844710687157, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1669844710687212, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669844710687282, "dur":1667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1669844710688976, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1669844710689041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669844710689047, "dur":3451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1669844710692543, "dur":82962, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710409186, "dur":701, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710409887, "dur":2749, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710412636, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1669844710412711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710433668, "dur":1063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1669844710434774, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710434824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710434833, "dur":23118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710458017, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710458089, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710458094, "dur":2437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710460560, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710460601, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710460610, "dur":4925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710465561, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710465632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710465639, "dur":6871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710472542, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710472574, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710472582, "dur":2066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710474675, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710474707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710474714, "dur":2016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710476759, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710476822, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710476831, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710478218, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710478254, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710478260, "dur":4781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710483070, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710483101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710483109, "dur":1183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710484319, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710484351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710484385, "dur":2461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710486881, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710486914, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710486920, "dur":8560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710495532, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710495570, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710495587, "dur":4677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710500297, "dur":83127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710583430, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710583451, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710584567, "dur":27634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710612216, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710612230, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710613232, "dur":802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710614038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710614048, "dur":8448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710622727, "dur":794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710623523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710623530, "dur":6963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710630532, "dur":13874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710644413, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710644428, "dur":837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710645294, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710645331, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710645337, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710646227, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710646259, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710646286, "dur":3497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710649816, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710649875, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710649881, "dur":2397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710652312, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710652358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710652366, "dur":7023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710659418, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710659497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710659504, "dur":3945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710663481, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710663514, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710663522, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669844710664545, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1669844710664673, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710664866, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1669844710665563, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1669844710665594, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710665637, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1669844710666581, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":4, "ts":1669844710666613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710666619, "dur":12331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":4, "ts":1669844710678984, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1669844710679014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710679022, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1669844710679884, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1669844710679926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710679932, "dur":2355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1669844710682319, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1669844710682442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710682448, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1669844710683870, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1669844710683903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710683909, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1669844710685728, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1669844710685768, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710685774, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1669844710687160, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669844710687238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710687251, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669844710688453, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669844710688482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669844710688497, "dur":1724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669844710690255, "dur":85252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710409255, "dur":658, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710409913, "dur":2612, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710412548, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1669844710412624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710414509, "dur":2896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1669844710417435, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1669844710417463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710417743, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1669844710419060, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1669844710419179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710419188, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1669844710420308, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1669844710420355, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710420566, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1669844710421845, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1669844710421881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710421887, "dur":1570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1669844710423544, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1669844710423633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710423649, "dur":12534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1669844710436219, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710436254, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710436260, "dur":20902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710457193, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710457308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710457316, "dur":3029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710460378, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710460417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710460423, "dur":3231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710463684, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710463724, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710463737, "dur":6886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710470655, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710470688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710470697, "dur":2594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710473341, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710473376, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710473383, "dur":1652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710475070, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710475108, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710475115, "dur":11607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710486757, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710486797, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710486803, "dur":6100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710492938, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710492974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710492996, "dur":4882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710497918, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710497979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710497987, "dur":49045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710547061, "dur":88160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710635227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710635238, "dur":1512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710636777, "dur":902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710637683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710637693, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710638694, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710638755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710638762, "dur":5835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710644634, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710644670, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710644676, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710645468, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710645501, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710645514, "dur":1934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710647485, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710647520, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710647528, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710648962, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710649001, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710649007, "dur":1736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710650773, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710650812, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710650818, "dur":8158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710659008, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710659044, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710659056, "dur":3295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710662440, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710662480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710662486, "dur":4269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669844710666780, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1669844710666814, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710666819, "dur":12651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1669844710679498, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669844710679527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710679532, "dur":5463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669844710685036, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level6.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669844710685067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710685074, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level6.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669844710686235, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level4.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669844710686265, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710686270, "dur":1437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level4.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669844710687736, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1669844710687766, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710687771, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1669844710689408, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1669844710689457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669844710689463, "dur":4427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1669844710693922, "dur":81616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669844710409306, "dur":617, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669844710409923, "dur":2646, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669844710412570, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1669844710412640, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669844710425199, "dur":975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1669844710426218, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669844710426257, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669844710426435, "dur":757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669844710427332, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669844710427408, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669844710427414, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669844710428842, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669844710428882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669844710428890, "dur":27206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669844710456137, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669844710456182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669844710456192, "dur":6524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669844710462755, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669844710462807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669844710462817, "dur":14312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669844710477161, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669844710477210, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669844710477216, "dur":20278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669844710497541, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669844710497575, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669844710497583, "dur":5766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669844710503391, "dur":110790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669844710614186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669844710614194, "dur":1437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669844710615666, "dur":64482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669844710680151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669844710680158, "dur":12521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669844710692708, "dur":82796, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669844710409335, "dur":598, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669844710409934, "dur":2592, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669844710412548, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1669844710412623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669844710414535, "dur":2782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1669844710417365, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1669844710417430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669844710417759, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1669844710419058, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1669844710419103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669844710419171, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1669844710420174, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1669844710420206, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669844710420404, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1669844710421797, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1669844710421837, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669844710421843, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1669844710423303, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669844710423408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669844710423414, "dur":53970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669844710477416, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669844710477455, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669844710477463, "dur":5080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669844710482579, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669844710482704, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669844710482712, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669844710483771, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669844710483801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669844710483809, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669844710485052, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669844710485082, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669844710485087, "dur":2042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669844710487159, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669844710487205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669844710487212, "dur":8773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669844710496025, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669844710496057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669844710496091, "dur":3568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669844710499691, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669844710499751, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669844710499757, "dur":48447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669844710548234, "dur":215789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669844710764030, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669844710764042, "dur":1489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669844710765553, "dur":9969, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710409379, "dur":562, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710409941, "dur":2625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710412567, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1669844710412636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710419201, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1669844710420102, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1669844710420145, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710420398, "dur":1771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1669844710422203, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710422239, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710422389, "dur":1700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710424119, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial.exe" }}
+,{ "pid":12345, "tid":8, "ts":1669844710424153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710424158, "dur":1575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial.exe" }}
+,{ "pid":12345, "tid":8, "ts":1669844710425758, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1669844710425856, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710426049, "dur":20237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1669844710446328, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710446370, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710446389, "dur":12605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710459029, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710459098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710459104, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710460761, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710460794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710460805, "dur":3018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710463868, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710463926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710463936, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710465504, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710465545, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710465552, "dur":5902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710471493, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710471523, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710471531, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710473536, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710473568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710473574, "dur":2757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710476366, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710476411, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710476418, "dur":1714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710478158, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710478271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710478277, "dur":5295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710483599, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710483630, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710483635, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710485726, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710485759, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710485765, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710487259, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710487286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710487293, "dur":11793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710499193, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710499234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710499240, "dur":4487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710503787, "dur":127423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710631215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710631226, "dur":1652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710632905, "dur":35016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710667926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710667934, "dur":11520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669844710679487, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1669844710679517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710679523, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1669844710680974, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1669844710681006, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710681011, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1669844710682392, "dur":1395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1669844710683791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710683799, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1669844710685113, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level6" }}
+,{ "pid":12345, "tid":8, "ts":1669844710685146, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710685176, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level6" }}
+,{ "pid":12345, "tid":8, "ts":1669844710686443, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1669844710686472, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710686477, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1669844710687874, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1669844710687911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710687916, "dur":1676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1669844710689625, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1669844710689653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669844710689659, "dur":3739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/praya/Desktop/Tower-Defense/Project Build/TowerDefenseTutorial_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1669844710693428, "dur":82067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669844710779020, "dur":2209, "ph":"X", "name": "ProfilerWriteOutput" }
+,
